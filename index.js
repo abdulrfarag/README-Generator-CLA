@@ -27,7 +27,15 @@ function writeToFile(data) {
 }
 
 // TODO: Create a function to initialize app
+function init() {
+    // ask the questions
+    inquirer.prompt(questions).then((answers) => {
 
+        console.log(answers)
+        writeToFile(generateMarkdown(answers));
+
+    })
+}
     // format the answers into a markdown string
 
     // pass that string to the writeToFile function
