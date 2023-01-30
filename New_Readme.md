@@ -1,13 +1,18 @@
+## README-Generator-CLA
 
-   # dfzlk;jkljdg;aklsg
-   awoeijgwoijegwoijh
-   ## This is a subtitle
-   This is a paragraph below the subtitle
+   this App helps you to create a professional ReadME file from the CLA
 
-   - List item 1
-   - List Item 2
-   - List Item 3
+The following image shows the web application's appearance and functionality:
 
-   Visit my GitHub page: agsoijeg
+![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for Atlanta.](./Untitled_%20Jan%2030%2C%202023%204_42%20PM.webm)
+
+## technologies
+
+node.js, JavaScript
+
+## repo
+
+https://github.com/abdulrfarag/README-Generator-CLA
+
 
   
