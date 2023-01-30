@@ -22,7 +22,9 @@ const questions = [
      },
 ];
 // TODO: Create a function to write README file
-
+function writeToFile(data) {
+    return fs.writeFileSync(path.join(process.cwd(), 'New_Readme.md'), data)
+}
 
 // TODO: Create a function to initialize app
 
