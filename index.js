@@ -18,7 +18,32 @@ const questions = [
   {
     type: "input",
     name: "description",
-    message: "What is your description",
+    message: "what is the description",
+  },
+  {
+    type: "input",
+    name: "installationInstructions",
+    message: "What is are the installation instructions? ",
+  },
+  {
+    type: "input",
+    name: "usageInformation",
+    message: "What is the usage information ",
+  },
+  {
+    type: "input",
+    name: "contribution",
+    message: "list of contribution",
+  },
+  {
+    type: "input",
+    name: "guidelines",
+    message: "list guidelines",
+  },
+  {
+    type: "input",
+    name: "instructions",
+    message: "list test instructions",
   },
 ];
 // TODO: Create a function to write README file

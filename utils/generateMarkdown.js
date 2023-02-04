@@ -16,6 +16,11 @@ function generateMarkdown(answers) {
   return `
    # ${answers.title}
    ${answers.description}
+   ${answers.installationInstructions}
+   ${answers.usageInformation}
+   ${answers.contribution}
+   ${answers.guidelines}
+   ${answers.instructions}
    ## This is a subtitle
    This is a paragraph below the subtitle
 
